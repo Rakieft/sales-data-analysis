@@ -1,0 +1,6 @@
+Sales Data Analysis - Summary Report
+=====================================
+
+Q1: Top product category by revenue -> Cosmetics ($36,601,509.60)
+Q2: Day with the most orders -> Friday (19 orders)
+Q3: Fastest shipping sales channel -> Offline (23.2 days average)

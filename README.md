@@ -16,7 +16,12 @@ Answer: Cosmetics has the highest total sales, with $36,601,509.60 in revenue, f
 **Question 2: Which day of the week has the highest number of sales transactions?**
 Answer: Friday has the most orders, with 19 transactions, followed closely by Tuesday (18) and Saturday (17). I found this by converting the `Order Date` text column into an actual date, extracting the day of the week from it, and counting how many orders fell on each day.
 
+**Question 3: Which sales channel ships orders the fastest on average?**
+Answer: Offline orders ship the fastest, averaging 23.2 days, compared to 23.5 days for Online orders. I found this by converting `Order Date` and `Ship Date` into real dates, calculating the number of days between them for every order, and averaging that per sales channel.
+
 ![Total Revenue by Product Category](revenue_by_category.png)
+
+Running `python analyze.py` also writes a plain-text copy of these findings to `results_summary.txt`.
 
 # Development Environment
 
@@ -32,6 +37,6 @@ I wrote the program in Python, using the Pandas library for data analysis (group
 
 # Future Work
 
-* Add a third question analyzing sales by region
-* Compare online vs. offline sales channels
+* Add a question analyzing sales by region
 * Handle larger datasets and improve performance
+* Add automated tests for each analysis function
