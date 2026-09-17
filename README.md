@@ -6,7 +6,7 @@ The dataset used is the ["100 Sales Records" sample dataset](https://gist.github
 
 My purpose in writing this software was to practice loading, cleaning, and analyzing tabular data with Pandas, and to visualize the results with Matplotlib.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/nB2mPmC1YKg)
 
 # Data Analysis Results
 
